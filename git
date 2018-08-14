@@ -1,0 +1,173 @@
+objetos@objetos ~ $ ls
+Descargas   eclipse     Imágenes      Música      Público  Wollok
+Documentos  Escritorio  jdk1.8.0_171  Plantillas  Vídeos   workspace
+objetos@objetos ~ $ cd escritorio
+bash: cd: escritorio: No existe el archivo o el directorio
+objetos@objetos ~ $ cd Escritorio
+objetos@objetos ~/Escritorio $ mkdir Proyectos
+objetos@objetos ~/Escritorio $ cd Proyectos
+objetos@objetos ~/Escritorio/Proyectos $ ls
+objetos@objetos ~/Escritorio/Proyectos $ pwd
+/home/objetos/Escritorio/Proyectos
+objetos@objetos ~/Escritorio/Proyectos $ git clone https://github.com/obj1-unahur-2018s2/pepita-IDMorrison
+Clonar en «pepita-IDMorrison»...
+remote: Counting objects: 260, done.
+remote: Compressing objects: 100% (101/101), done.
+remote: Total 260 (delta 136), reused 260 (delta 136), pack-reused 0
+Receiving objects: 100% (260/260), 38.59 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (136/136), done.
+Comprobando la conectividad… hecho.
+objetos@objetos ~/Escritorio/Proyectos $ ls
+pepita-IDMorrison
+objetos@objetos ~/Escritorio/Proyectos $ pdw
+No se ha encontrado la orden «pdw», quizás quiso decir:
+ La orden «psw» del paquete «wise» (universe)
+ La orden «pdv» del paquete «alliance» (universe)
+ La orden «pda» del paquete «speech-tools» (universe)
+ La orden «paw» del paquete «paw-common» (universe)
+ La orden «pdb» del paquete «python» (main)
+ La orden «pmw» del paquete «pmw» (universe)
+ La orden «pdl» del paquete «pdl» (universe)
+ La orden «pwd» del paquete «coreutils» (main)
+ La orden «cdw» del paquete «cdw» (universe)
+ La orden «pd» del paquete «puredata-core» (universe)
+pdw: no se encontró la orden
+objetos@objetos ~/Escritorio/Proyectos $ pwd
+/home/objetos/Escritorio/Proyectos
+objetos@objetos ~/Escritorio/Proyectos $ ls
+pepita-IDMorrison
+objetos@objetos ~/Escritorio/Proyectos $ cd pepita-IDMorrison/
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ ls
+build.properties  doc  META-INF  README.md  src
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ pwd
+/home/objetos/Escritorio/Proyectos/pepita-IDMorrison
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ ls
+build.properties  doc  META-INF  README.md  src
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ cd doc/|
+> ls
+build.properties  doc  META-INF  README.md  src
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ ls
+build.properties  doc  META-INF  README.md  src
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ cd do
+bash: cd: do: No existe el archivo o el directorio
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ cd doc
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison/doc $ ls
+enunciado1.md  enunciado4.md  enunciado7.md
+enunciado2.md  enunciado5.md  enunciado8.md
+enunciado3.md  enunciado6.md  enunciadoCorreccionTests.md
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison/doc $ cd..
+cd..: no se encontró la orden
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison/doc $ cd ..
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ pwd
+/home/objetos/Escritorio/Proyectos/pepita-IDMorrison
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ git status
+En la rama master
+Su rama está actualizada con «origin/master».
+Cambios no preparados para el commit:
+  (use «git add <archivo>...» para actualizar lo que se confirmará)
+  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
+
+	modificado:    doc/.enunciado1.md.html
+	modificado:    src/etapa1/pepita.wlk
+
+no hay cambios agregados al commit (use «git add» o «git commit -a»)
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ git commit -a -m "Agregue method energialIncial()"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'objetos@objetos.(none)')
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ git config --global user.mail "ariel.sadran@hotmail.com"
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ git config --global user.name "Sadran"
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ git commit -a -m "Agregue method energialIncial()"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'objetos@objetos.(none)')
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ git commit -a -m "Agregue method energialIncial()"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'objetos@objetos.(none)')
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ git config --global user.name "Sadran"
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ git commit -a -m "Agregue method energialIncial()"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'objetos@objetos.(none)')
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ git config --global user.email "ariel.sadran@hotmail.com"
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ git commit -a -m "Agregue method energialIncial()"
+[master 140f40a] Agregue method energialIncial()
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ git status
+En la rama master
+Su rama está delante de «origin/master» para 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ git pull
+Already up-to-date.
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': IDMorrison
+Password for 'https://IDMorrison@github.com': 
+Counting objects: 7, done.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 627 bytes | 0 bytes/s, done.
+Total 7 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/obj1-unahur-2018s2/pepita-IDMorrison
+   b433135..140f40a  master -> master
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ ^C
+objetos@objetos ~/Escritorio/Proyectos/pepita-IDMorrison $ 
+

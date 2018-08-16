@@ -18,7 +18,7 @@ object pepita {
 		var cuanto = self.energia() / 5
 		if (energia.between(300, 400)) { cuanto += 10 }
 		if (energia % 20 == 0) { cuanto += 15 }
-		return cuanto+console.println("Km.")
+		return cuanto
 	}
 	
 	method salirAComer() {

@@ -3,8 +3,9 @@ import masAves.*
 import pepita.*
 
 object roque {
-	var pupilo = ""
+	var pupilo 
 	method tuPupiloEs(ave) { pupilo = ave }
+	method pupiloActual() { return pupilo }
 	method entrenar() { 
 		pupilo.volar(10)
 		pupilo.comer(alpiste, 300)

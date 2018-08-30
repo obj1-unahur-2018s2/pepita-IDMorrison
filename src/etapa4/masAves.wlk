@@ -10,7 +10,7 @@ object pepon {
 object pipa {
 	var cuantoCome=0
 	var cuantoVuela=0
-	method comer(cuanto){cuantoCome+=cuanto}
+	method comer(cosa, cuanto){cuantoCome+=cuanto}
 	method volar(kms){cuantoVuela+=kms}
 	method gramosIngeridos(){return cuantoCome} 
 	method kmsrecorridos(){return cuantoVuela}
